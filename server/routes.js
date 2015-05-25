@@ -5,7 +5,7 @@ import debug from 'debug';
 import mime from 'mime-types';
 import CombinedStream from 'combined-stream';
 import replaceStream from 'replacestream';
-import Mcm from '../index';
+import Mcm from 'mcm';
 import React from 'react';
 import App from '../client/component/app';
 
