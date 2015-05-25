@@ -5,6 +5,13 @@ Minecraft sever usage will be monitored and the instance will be shut down autom
 
 [Watch demo](https://youtu.be/-I8xJFH96Bc).
 
+## Installation
+
+```
+git clone https://github.com/chrisjaure/mcm.git
+npm install
+```
+
 ## Command Line Usage
 
 ```
