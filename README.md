@@ -8,7 +8,7 @@ Minecraft sever usage will be monitored and the instance will be shut down autom
 ## Installation
 
 ```
-git clone https://github.com/chrisjaure/mcm.git
+git clone https://github.com/chrisjaure/mcm-server.git
 npm install
 ```
 
