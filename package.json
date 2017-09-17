@@ -1,6 +1,6 @@
 {
   "name": "mcm-server",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Automatically start up and shut down a minecraft server.",
   "scripts": {
     "test": "jasmine-es6",
@@ -9,7 +9,7 @@
     "build-css": "cat client/style.css | autoprefixer | cleancss > client/build.css",
     "build-js": "browserify client/index.js -t cssify -t babelify | uglifyjs --compress --mangle > client/build.js",
     "dev": "npm run reload-js & npm run watch-css & DEBUG='mcm:*' npm run server",
-    "start": "npm run build && NODE_ENV=production npm run server",
+    "start": "NODE_ENV=production npm run server",
     "server": "babel-node server/index.js",
     "watch-css": "watch-run -ip 'client/style.css' -- autoprefixer client/style.css -mo client/build.css & browser-sync start --files='client/build.css' --no-ui --logLevel=silent",
     "watch-js": "watchify client/index.js -t cssify -t babelify -t livereactload --debug --verbose -o client/build.js",
@@ -42,7 +42,7 @@
     "replacestream": "^2.1.0",
     "router": "^1.0.0",
     "whatwg-fetch": "^0.7.0",
-    "uglifyjs": "^2.4.10"
+    "uglify-js": "^2.4.10"
   },
   "devDependencies": {
     "browser-sync": "^2.6.4",
