@@ -30,7 +30,7 @@
     "babel": "^5.2.6",
     "babelify": "^6.0.2",
     "browserify": "^9.0.8",
-    "clean-css": "^3.1.9",
+    "clean-css": "^4.2.3",
     "combined-stream": "0.0.7",
     "cssify": "^0.7.0",
     "debug": "^2.1.3",
