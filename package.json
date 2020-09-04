@@ -38,7 +38,7 @@
     "finalhandler": "^0.3.4",
     "mcm": "^1.0.0",
     "mime-types": "^2.0.10",
-    "react": "^0.13.2",
+    "react": "^16.13.1",
     "replacestream": "^2.1.0",
     "router": "^1.0.0",
     "whatwg-fetch": "^0.7.0",
